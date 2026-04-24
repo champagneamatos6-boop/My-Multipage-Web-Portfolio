@@ -1,0 +1,396 @@
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%) !important;
+}
+
+
+[data-testid="stHeader"] {
+    background: transparent !important;
+}
+
+
+[data-testid="stHeaderActionElements"] {
+    display: none !important;
+}
+
+
+[data-testid="stSidebarCollapsedControl"] button,
+[data-testid="stSidebarCollapsedControl"] svg,
+section[data-testid="stSidebar"] button[kind="headerNoPadding"],
+section[data-testid="stSidebar"] button[kind="headerNoPadding"] svg {
+    color: white !important;
+    fill: white !important;
+}
+
+
+[data-testid="stHorizontalBlock"] {
+    align-items: center !important;
+}
+
+.block-container {
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(20px) saturate(160%);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 2rem 2rem 3rem 2rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 5rem;
+    border-radius: 24px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+h1, h2, h3, p, span {
+    color: #ffffff;
+}
+
+h1 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.header-info-container {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-left: 5px solid #2c5364;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.header-info-container h1 {
+    margin-bottom: 0;
+    color: #0f2027;
+    font-size: 21px;
+}
+
+.stButton > button {
+    background-color: #2c5364;
+    color: white;
+    border-radius: 10px;
+    height: 3rem;
+    width: 100%;
+}
+
+.stButton > button:hover {
+    background-color: #203a43;
+    color: white;
+}
+
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #141e30 0%, #243b55 100%) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.05);
+}
+
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+
+section[data-testid="stSidebar"] p,
+[data-testid="stSidebarNav"] li span,
+[data-testid="stSidebar"] .stMarkdown {
+    font-family: 'Inter', sans-serif;
+}
+
+
+[data-testid="stSidebarNav"] ul {
+    padding: 1.5rem 0.75rem !important;
+}
+
+[data-testid="stSidebarNav"] li {
+    margin-bottom: 8px !important;
+    border-radius: 12px !important;
+    transition: all 0.3s ease !important;
+}
+
+[data-testid="stSidebarNav"] li:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    transform: translateX(5px);
+}
+
+
+[data-testid="stSidebarNav"] li a[aria-current="page"] {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    border-radius: 12px !important;
+    font-weight: 700 !important;
+}
+
+
+.skill-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.skill-card:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.skill-name {
+    font-weight: 600;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.skill-bar-bg {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 8px;
+    width: 100%;
+}
+
+
+.info-card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 6px solid #4ca1af;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.info-card:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.info-card h3 {
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+
+.project-card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
+}
+
+.project-card h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+
+.certificate-lane {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 5px;
+    align-items: stretch;
+}
+
+.certificate-gallery [data-testid="stImage"] {
+    display: flex;
+    align-items: flex-start;
+}
+
+.certificate-gallery [data-testid="stImage"] img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 12px;
+}
+
+.certificate-gallery [data-testid="stCaptionContainer"] {
+    min-height: 3rem;
+}
+
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-badge {
+    background: #2c5364;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.social-badge:hover {
+    background: #203a43;
+    transform: translateX(5px);
+}
+
+
+.hero-card {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    padding: 2.5rem 2.25rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+}
+
+.hero-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    padding: 1.5rem 0.5rem 1.5rem 0.25rem;
+}
+
+.hero-eyebrow {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.wave {
+    display: inline-block;
+    animation: wave-animation 2.5s infinite;
+    transform-origin: 70% 70%;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+    10% { transform: rotate(14.0deg) }
+    20% { transform: rotate(-8.0deg) }
+    30% { transform: rotate(14.0deg) }
+    40% { transform: rotate(-4.0deg) }
+    50% { transform: rotate(10.0deg) }
+    60% { transform: rotate( 0.0deg) }
+    100% { transform: rotate( 0.0deg) }
+}
+
+.hero-copy h2 {
+    color: #0f2027;
+    font-size: 2.6rem;
+    line-height: 1.05;
+    margin: 0 0 0.45rem 0;
+    font-weight: 800;
+}
+
+.hero-copy h3 {
+    color: #2c5364;
+    font-size: 1.4rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.hero-copy h3 span {
+    color: #e67e22; /* Warm orange accent that matches peach better */
+}
+
+.hero-description {
+    color: #444;
+    font-size: 0.98rem;
+    line-height: 1.8;
+    max-width: 520px;
+    margin-top: 1.25rem;
+}
+
+.hero-image-shell {
+    position: relative;
+    width: min(100%, 310px);
+    margin: 0 auto;
+    padding: 0.75rem;
+    background: white; 
+    clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0 50%);
+}
+
+.hero-image-glow {
+    position: absolute;
+    inset: 16px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 70%);
+    filter: blur(18px);
+    z-index: 0;
+}
+
+.hero-profile-image {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    aspect-ratio: 1 / 1.1;
+    object-fit: cover;
+    clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0 50%);
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    background: transparent;
+    mix-blend-mode: multiply; 
+}
+
+[data-testid="column"] .hero-image-shell,
+[data-testid="column"] .hero-copy {
+    animation: fadeIn 0.8s ease-out;
+}
+
+
+.main-title {
+    display: block;
+    width: 100%;
+    color: #1f232c;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 1.5rem !important;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.block-container {
+    animation: fadeIn 0.8s ease-out;
+}
+
+@media (max-width: 900px) {
+    .hero-card {
+        padding: 1.75rem 1.25rem;
+    }
+
+    .hero-copy {
+        padding: 0.5rem 0 1.25rem 0;
+    }
+
+    .hero-copy h2 {
+        font-size: 2rem;
+    }
+
+    .hero-copy h3 {
+        font-size: 1.15rem;
+    }
+
+    .hero-description {
+        font-size: 0.92rem;
+        line-height: 1.7;
+    }
+
+    .hero-image-shell {
+        width: min(100%, 240px);
+    }
+
+    .certificate-gallery [data-testid="stImage"] img {
+        height: 220px;
+    }
+}
