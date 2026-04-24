@@ -41,7 +41,7 @@ cert_col1, cert_col2, cert_col3, cert_col4, cert_col5 = st.columns(5, gap="small
 
 with cert_col1:
     try:
-        st.image("Images/introduction to cyber security.jpg", use_container_width=True)
+        st.image("portfolio_app/Images/introduction to cyber security.jpg", use_container_width=True)
         st.caption("Introduction to Cyber Security")
     except:
         st.markdown("""
@@ -52,7 +52,7 @@ with cert_col1:
 
 with cert_col2:
     try:
-        st.image("Images/JavaScript for Beginners.jpg", use_container_width=True)
+        st.image("portfolio_app/Images/JavaScript for Beginners.jpg", use_container_width=True)
         st.caption("JavaScript for Beginners")
     except:
         st.markdown("""
@@ -63,7 +63,7 @@ with cert_col2:
 
 with cert_col3:
     try:
-        st.image("Images/Python for Beginners.jpg", use_container_width=True)
+        st.image("portfolio_app/Images/Python for Beginners.jpg", use_container_width=True)
         st.caption("Pyhton for Beginners")
     except:
         st.markdown("""
@@ -74,7 +74,7 @@ with cert_col3:
 
 with cert_col4:
     try:
-        st.image("Images/PythonEssentials1.jpg", use_container_width=True)
+        st.image("portfolio_app/Images/PythonEssentials1.jpg", use_container_width=True)
         st.caption("Cisco Python Essentials 1")
     except:
         st.markdown("""
@@ -85,7 +85,7 @@ with cert_col4:
 
 with cert_col5:
     try:
-        st.image("Images/Web development for beginners.jpg", use_container_width=True)
+        st.image("portfolio_app/Images/Web development for beginners.jpg", use_container_width=True)
         st.caption("Web Development for Beginners")
     except:
         st.markdown("""
